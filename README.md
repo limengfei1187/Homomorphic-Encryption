@@ -11,15 +11,7 @@ In /Data/Data1.cvs, we show CPU-time of homomorphic evaluation of the integer ar
   Homomorphic Evaluation of the Subtraction Operations(HE-sub),
   Homomorphic Evaluation of the Multiplication Operations(HE-mul),
   Homomorphic Evaluation of the Division Operation(HE-div),
-based on DGHV, CMNT and CNT schemes. We use the ciphertext vector of 16 and 8 bit plaintext to test the efficient of homomorphic evaluation of the integer arithmetic operations in different parameters. We show parameters include  L0, L1, L2, L3 and L4. As shown below:
-   	λ	  ρ^'	η	    γ	        τ
-L=0	52	24	1632	2.0*10^6	1000
-L=1	52	24	1728	2.5*10^6	1000
-L=2	52	24	1801	3.0*10^6	1000
-L=3	52	24	1874	3.5*10^6	1000
-L=4	52	24	1993	4.2*10^6	1000
-
-λ, ρ^', η, γ and τ are importent parameters in  homomorphic encryption scheme.
+based on DGHV, CMNT and CNT schemes. We use the ciphertext vector of 16 and 8 bit plaintext to test the efficient of homomorphic evaluation of the integer arithmetic operations in different parameters. We show parameters include  L0, L1, L2, L3 and L4. As shown /Data/parameters.cvs, where λ, ρ^', η, γ and τ are importent parameters in  homomorphic encryption scheme.
 
 In /Data/Data2.cvs, we show CPU-time of DGHV and CMNT scheme, include CPU-time of executing homomorphic addition (for single ciphertext), CPU-time of executing homomorphic multiplication (for single ciphertext), CPU-time of executing ciphertext-expending and ciphertext-refreshing in diferent parameters. Also, that parameters include  L0, L1, L2, L3 and L4.
 
