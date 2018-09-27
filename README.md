@@ -3,7 +3,7 @@ This repository is about the implementation of homomorphic encryption scheme, in
 
 Our code is built on top of GnuMP. We tested our implementation on a desktop computer with Intel Core i5-3470 running at 3.2GHz, on which we run an Ubuntu 18.04 with 8GB of RAM and with the gcc compiler version 6.2.
 
-If you want use our program, you should ensure that GUN MP Library has been installed in your system. You can access the GNU MP web pages at https://gmplib.org/ to download GUN MP Library.
+If you want use our program, you should ensure that GUN MP Library has been installed in your system. You can visit the GNU MP web pages at https://gmplib.org/ to download GUN MP Library.
 
 In /Data/Data1.cvs, we show CPU-time of homomorphic evaluation of the integer arithmetic operations, include 
   Homomorphic Evaluation of the Complement Operations(HE-com),
